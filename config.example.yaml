@@ -1,0 +1,14 @@
+# pet to ct registration
+pet_2_ct:
+  main_folder: '/example_folder/database_folder/' # replace with your directory
+
+# ct registered images to a single selected pet image
+pet_rigid_reg:
+  main_folder: '/example_folder/database_folder/' # replace with your directory
+  sub:folder: 'raw'
+  fixed_img: 'single_pet_image'
+
+# template building, image averaging and smoothing
+template_building:
+  main_folder: '/example_folder/database_folder/' # replace with your directory
+  averaged_image_dir: 'example_/database_folder/derivatives/templates'
